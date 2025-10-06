@@ -4,8 +4,6 @@ const nextConfig = {
   experimental: {
     appDir: true,
   },
-  // Força o uso do App Router
-  appDir: true,
   images: {
     remotePatterns: [
       {
