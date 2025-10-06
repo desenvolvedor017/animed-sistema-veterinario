@@ -10,3 +10,6 @@ dist
 *.log
 .DS_Store
 Thumbs.db
+deploy-*.bat
+corrigir-*.bat
+variaveis-*.bat
