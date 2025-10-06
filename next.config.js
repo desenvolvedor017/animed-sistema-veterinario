@@ -1,9 +1,5 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // Configuração para App Router (Next.js 13+)
-  experimental: {
-    appDir: true,
-  },
   images: {
     remotePatterns: [
       {
