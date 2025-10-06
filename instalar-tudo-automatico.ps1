@@ -179,3 +179,4 @@ Write-Host "3. Execute 'npm run dev' para testar localmente" -ForegroundColor Wh
 Write-Host ""
 Write-Host "📚 Consulte GUIA_GITHUB.md para mais informacoes." -ForegroundColor Blue
 Read-Host "Pressione Enter para sair"
+

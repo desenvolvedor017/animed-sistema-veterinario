@@ -206,3 +206,4 @@ git checkout main
 ---
 
 **🚀 Seu sistema Animed estará disponível no GitHub e pronto para o mundo!**
+

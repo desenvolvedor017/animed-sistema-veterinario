@@ -1,62 +1,51 @@
 @echo off
 echo ========================================
-echo    VARIAVEIS DE AMBIENTE - VERCEL
+echo    VARIAVEIS DE AMBIENTE VERCEL
 echo ========================================
 echo.
 
-echo 🔧 ADICIONANDO VARIAVEIS DE AMBIENTE:
+echo 🔑 VARIAVEIS OBRIGATORIAS PARA O SISTEMA:
 echo.
 
-echo 📋 VARIAVEL 1 - NEXTAUTH_URL:
-echo.
-echo Nome: NEXTAUTH_URL
-echo Valor: https://seu-projeto.vercel.app
-echo Ambiente: Production, Preview, Development
-echo.
-echo 💡 IMPORTANTE: Substitua "seu-projeto" pelo nome real do seu projeto
+echo 1. NEXTAUTH_URL
+echo    Valor: https://seu-projeto.vercel.app
+echo    Descricao: URL base da aplicacao
 echo.
 
-echo 📋 VARIAVEL 2 - NEXTAUTH_SECRET:
-echo.
-echo Nome: NEXTAUTH_SECRET
-echo Valor: chave-secreta-aleatoria-123
-echo Ambiente: Production, Preview, Development
-echo.
-echo 💡 IMPORTANTE: Use qualquer texto aleatorio como valor
+echo 2. NEXTAUTH_SECRET
+echo    Valor: qualquer-string-secreta-aqui
+echo    Descricao: Chave secreta para autenticacao
 echo.
 
-echo 📋 VARIAVEL 3 - DATABASE_URL:
-echo.
-echo Nome: DATABASE_URL
-echo Valor: file:./dev.db
-echo Ambiente: Production, Preview, Development
-echo.
-echo 💡 IMPORTANTE: Mantenha exatamente como esta
+echo 3. DATABASE_URL
+echo    Valor: file:./dev.db
+echo    Descricao: Caminho do banco de dados SQLite
 echo.
 
-echo 🎯 COMO ADICIONAR:
+echo 📋 COMO ADICIONAR NO VERCEL:
 echo.
-echo 1. Clique em "Add Variable" ou "Adicionar Variavel"
-echo 2. Digite o Nome da variavel
-echo 3. Digite o Valor da variavel
-echo 4. Selecione os ambientes (Production, Preview, Development)
-echo 5. Clique em "Save" ou "Salvar"
-echo 6. Repita para as 3 variaveis
-echo.
-
-echo ✅ APOS ADICIONAR TODAS:
-echo.
-echo 1. Clique em "Deploy" ou "Fazer Deploy"
-echo 2. Aguarde 2-3 minutos
-echo 3. Sistema estara online!
+echo 1. No Vercel, clique em "Settings"
+echo 2. Clique em "Environment Variables"
+echo 3. Adicione cada variavel:
+echo    - Nome: NEXTAUTH_URL
+echo      Valor: https://animed-sistema-veterinario.vercel.app
+echo    - Nome: NEXTAUTH_SECRET
+echo      Valor: animed-secret-key-2024
+echo    - Nome: DATABASE_URL
+echo      Valor: file:./dev.db
+echo 4. Clique em "Save"
+echo 5. Clique em "Redeploy"
 echo.
 
-echo 🚀 RESULTADO FINAL:
+echo 🚨 IMPORTANTE: Sem essas variaveis o sistema nao funciona!
 echo.
-echo - Sistema online em: https://seu-projeto.vercel.app
-echo - Login: admin@animed.com
-echo - Senha: admin123
-echo - Acesso de qualquer dispositivo
+
+echo 🚀 Abrindo Vercel para configurar...
+start https://vercel.com/dashboard
+
 echo.
+echo ========================================
+echo    CONFIGURE AS VARIAVEIS AGORA!
+echo ========================================
 
 pause

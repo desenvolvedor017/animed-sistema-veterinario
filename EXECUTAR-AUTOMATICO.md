@@ -111,3 +111,4 @@ Após executar qualquer método:
 ---
 
 **🚀 Escolha o método que preferir e execute!**
+

@@ -39,3 +39,4 @@ echo 💡 DICA: Agora o build deve funcionar sem erros!
 echo.
 
 pause
+

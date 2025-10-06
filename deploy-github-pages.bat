@@ -98,3 +98,4 @@ if %errorlevel% equ 0 (
 echo.
 echo 📚 Consulte GUIA_GITHUB.md para mais informacoes.
 pause
+

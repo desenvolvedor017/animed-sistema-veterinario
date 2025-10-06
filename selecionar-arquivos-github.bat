@@ -55,3 +55,4 @@ echo    depois Ctrl+Click na pasta node_modules para desmarcar
 echo.
 
 pause
+

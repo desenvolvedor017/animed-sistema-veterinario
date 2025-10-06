@@ -65,3 +65,4 @@ echo ✅ Qualquer navegador
 echo.
 
 pause
+

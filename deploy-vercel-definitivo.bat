@@ -56,3 +56,4 @@ echo 💡 DICA: O Vercel e muito melhor que o Netlify para Next.js!
 echo.
 
 pause
+

@@ -50,3 +50,4 @@ echo ✅ Pronto para importar no Vercel
 echo.
 
 pause
+

@@ -73,3 +73,4 @@ echo 💡 DICA: Agora todos os erros foram corrigidos!
 echo.
 
 pause
+

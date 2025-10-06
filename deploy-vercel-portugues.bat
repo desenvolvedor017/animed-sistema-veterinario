@@ -75,3 +75,4 @@ echo ✅ Monitoramento de performance
 echo.
 
 pause
+

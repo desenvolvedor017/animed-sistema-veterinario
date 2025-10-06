@@ -93,3 +93,4 @@ try {
 Write-Host ""
 Write-Host "🎉 Processo concluído!" -ForegroundColor Green
 Write-Host "📚 Consulte o arquivo GUIA_GITHUB.md para mais informações." -ForegroundColor Blue
+

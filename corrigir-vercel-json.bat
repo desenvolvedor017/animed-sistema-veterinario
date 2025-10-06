@@ -47,3 +47,4 @@ echo 💡 DICA: O erro do vercel.json foi corrigido!
 echo.
 
 pause
+

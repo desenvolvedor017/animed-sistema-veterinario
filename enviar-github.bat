@@ -92,3 +92,4 @@ echo.
 echo 🎉 Processo concluído!
 echo 📚 Consulte o arquivo GUIA_GITHUB.md para mais informações.
 pause
+

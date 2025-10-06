@@ -191,3 +191,4 @@ Após enviar para o GitHub:
 ---
 
 **🚀 Seu sistema Animed estará disponível no GitHub e pronto para colaboração!**
+
