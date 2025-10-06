@@ -1,9 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // Força o uso do App Router
+  // Configuração para App Router (Next.js 13+)
   experimental: {
     appDir: true,
   },
+  // Força o uso do App Router
+  appDir: true,
   images: {
     remotePatterns: [
       {

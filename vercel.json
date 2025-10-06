@@ -9,6 +9,11 @@
       "maxDuration": 30
     }
   },
+  "build": {
+    "env": {
+      "NEXT_PUBLIC_APP_URL": "https://animed-sistema-veterinario.vercel.app"
+    }
+  },
   "headers": [
     {
       "source": "/(.*)",
