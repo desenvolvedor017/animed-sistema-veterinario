@@ -1,5 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  // Força o uso do App Router
+  experimental: {
+    appDir: true,
+  },
   images: {
     remotePatterns: [
       {
@@ -16,11 +20,6 @@ const nextConfig = {
   },
   // Compressão
   compress: true,
-  // Cache de páginas
-  onDemandEntries: {
-    maxInactiveAge: 25 * 1000,
-    pagesBufferLength: 2,
-  },
   // Otimização de bundle
   webpack: (config, { dev, isServer }) => {
     if (!dev && !isServer) {
